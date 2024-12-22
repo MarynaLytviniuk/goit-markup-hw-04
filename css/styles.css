@@ -1,0 +1,375 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.section {
+    padding-top: 120px; /* Верхній відступ */
+    padding-bottom: 120px; /* Нижній відступ */
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container { 
+    max-width: 1158px;
+    width: 100%;
+    padding-left: 15px; 
+    padding-right: 15px; 
+    margin: 0 auto; 
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block; /* Перетворює зображення на блоковий елемент */
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.logo {
+    margin-right: 76px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    letter-spacing: 0.03em;
+}
+
+.header-logo .logo-part {
+    color: #2e2f42;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+}
+
+.footer-logo .logo-part {
+    color: #f4f4fd;
+}
+
+.nav-link {
+   padding: 24px 0;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts-list {
+    gap: 40px; /* Проміжок між контактами */
+    display: flex; /* Горизонтальне розташування елементів */
+}
+
+.contacts-item {
+    margin: 0;
+    padding: 0;
+}
+
+.contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
+}
+
+.page-footer {
+    padding: 100px 0;
+    background-color: #2e2f42;
+    color: #f4f4fd;
+}
+
+.hero {
+    padding: 188px 0;
+    background-color: #2e2f42;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-title {
+    margin-left: auto; 
+    margin-right: auto;
+    max-width: 496px;
+    margin-bottom: 48px;
+    display: flex;
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 0.02em;
+}
+
+.hero-button {
+    border: none;
+    min-width: 169px;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    display: block;
+    border-radius: 4px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
+}
+
+.strategy,
+.h3-banking-app,
+.h3-cashless-payment,
+.h3-meditation-app,
+.h3-taxi-service,
+.h3-screen-illustrations,
+.h3-online-courses {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+}
+
+.app,
+.marketing,
+.design {
+    font-size: 16px;
+    color: #434455;
+}
+
+.increase {
+    color: #f4f4fd;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.h-our-team,
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #2e2f42;
+    
+}
+
+.h-adv {
+    padding: 120px 0;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2e2f42;
+}
+.our-team {
+    background: #f4f4fd;
+    padding: 120px 0;
+}
+
+.section-our-portfolio {
+    padding-top: 120px; 
+    padding-bottom: 120px;
+    background: #ffffff;
+}
+
+.team-member-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-member-role {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-title {
+    margin-bottom: 72px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.strategy {
+    margin-bottom: 8px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.strategy-paragraf {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.h-our-team {
+    margin-bottom: 72px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-member-info {
+    padding: 32px 0;
+}
+
+.team-member-name {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-member-role {
+    text-align: center; 
+}
+
+.mark-guerrero {
+    border-radius: 0px 0px 4px 4px; 
+    background-color: #FFFFFF;
+
+}
+
+.footer-logo {
+    margin-bottom: 16px;
+    display: inline-block;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    justify-content: space-between; /* Розташування логотипу, меню та контактів */
+    align-items: center; /* Вирівнювання елементів по вертикалі */
+    flex-wrap: wrap; /* Дозволяє переносити елементи на новий рядок */
+}
+
+.header-nav {
+    display: flex; /* Включение Flexbox для размещения элементов в строку */
+    justify-content: space-between; /* Разделение логотипа и списка */
+    align-items: center; /* Выровнять элементы по вертикали */
+}
+
+.nav-list {
+    padding: 24px 0; 
+    display: flex; /* Горизонтальне розташування пунктів меню */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 40px; /* Проміжок між пунктами меню */
+}
+
+.container-h2-adv {
+    margin-top: 120px;    /* Відступ зверху */
+    margin-right: 156px;  /* Відступ праворуч */
+    margin-bottom: 120px; /* Відступ знизу */
+    margin-left: 156px;  /* Відступ ліворуч */
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: flex-start;
+    align-items: baseline; 
+}
+
+.adv-list {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: calc((100% - 72px) / 4);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+
+.list-our-team{
+    display: flex;
+    flex-direction: row;
+    gap: 24px; 
+}
+
+.portfolio-list {
+    width: 1128px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-info {
+    padding: 32px 16px; /* Відступи від країв */
+    border: 1px solid #e7e9fc; /* Обводка контейнера */
+    border-top: none; /* Скидання обводки верхнього краю */
+}
+
+.app-name {
+    margin-bottom: 8px; /* Відступ між заголовком і текстом */
+}
+
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    column-gap: 40px;
+}
+
+.page-header .container {
+    justify-content: space-between;
+    display: flex;
+}
+
+.increase {
+   width: 264px; 
+}
