@@ -80,6 +80,16 @@ img {
    color: #2e2f42;
 }
 
+.studio-link::after {
+    content: "";
+    border-radius: 2px;
+    width: 48px;
+    height: 4px;
+    background: #404bbf;
+    display: block;
+    margin: 0 auto;
+ }
+
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
@@ -125,6 +135,9 @@ img {
     background-color: #2e2f42;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero/people-office.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-title {
@@ -234,6 +247,18 @@ img {
     text-transform: capitalize;
 }
 
+.icon-strategy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+}
+
 .strategy {
     margin-bottom: 8px;
     line-height: 1.2;
@@ -334,6 +359,12 @@ img {
     gap: 24px; 
 }
 
+.icon-section-3:hover,
+.icon-section-3:focus {
+    background-color: #404BBF;
+}
+
+
 .portfolio-list {
     width: 1128px;
     display: flex;
@@ -349,6 +380,40 @@ img {
     padding: 32px 16px; /* Відступи від країв */
     border: 1px solid #e7e9fc; /* Обводка контейнера */
     border-top: none; /* Скидання обводки верхнього краю */
+}
+
+.section-image {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.overlay-text {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0;
+}
+
+.app-container {
+    padding: 32px 16px;
+     border-bottom: 1px solid #e7e9fc;
+     border-left: 1px solid #e7e9fc;
+     border-right: 1px solid #e7e9fc;
+     border-top: none;
 }
 
 .app-name {
@@ -370,6 +435,78 @@ img {
     display: flex;
 }
 
+.footcont {
+    display: flex;
+    align-items: baseline;
+}
+
+
 .increase {
    width: 264px; 
+}
+
+.social {
+    width: 208px; 
+    margin-bottom: 16px;
+    display: inline-block;
+ }
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    margin-left: 120px;
+    text-align: left;  
+}
+
+.icon-list {
+    display: flex;
+    gap: 16px;
+    width: 40px;
+    height: 40px;
+}
+.item-icon {
+    fill: #ffffff;
+}
+.icon-link {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        background-color: #4d5ae5;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container-sect-3 {
+gap: 24px;
+padding-top: 8px;
+padding-bottom: 32px;
+padding-left: 16px;
+padding-right: 16px;
+}
+
+.icon-section-3 {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: center;
+}
+
+.icon-link:hover,
+.icon-link:focus{
+    background-color: #31d0aa;
+}
+
+
+.footer-icon {
+    fill: #ffffff;
+    display: flex;
+    gap: 16px;
 }
